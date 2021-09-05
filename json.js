@@ -39,7 +39,7 @@ let generateAxes = () => {
 req.open('GET', url, true)
 req.onload = () => {
     let data = JSON.parse(req.responseText)
-    baseTemp = data.Object['Country']
+    baseTemp = data.Country/Region
     // values = data.monthlyVariance
     console.log(baseTemp)
     console.log(values)

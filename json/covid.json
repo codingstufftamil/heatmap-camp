@@ -1,3 +1,5 @@
+{
+  "monthlyVariance": [
   {
     "Province/State": "",
     "Country/Region": "Afghanistan",
@@ -17148,3 +17150,5 @@
     "3/24/21": 0,
     "3/25/21": 2
   }
+]
+}
