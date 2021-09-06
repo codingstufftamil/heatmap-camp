@@ -2,97 +2,97 @@
   "monthlyVariance": [
       {
           "Country": "India",
-          "month": "Feb 15, 2020",
+          "month": 2,
           "Affected": 3
       },
               {
           "Country": "India",
-          "month": "Mar 09, 2020",
+          "month": 3,
           "Affected": 47
       },
               {
           "Country": "India",
-          "month": "Apr 01, 2020",
+          "month": 4,
           "Affected": 1998
       },
       {
           "Country": "India",
-          "month": "May 17, 2020",
+          "month": 5,
           "Affected": 95698
       },
       {
           "Country": "India",
-          "month": "Jun 09, 2020",
+          "month": 6,
           "Affected": 274780
       },
       {
           "Country": "India",
-          "month": "Jul 02, 2020",
+          "month": 7,
           "Affected": 627168
       },
       {
           "Country": "India",
-          "month": "Aug 17, 2020",
+          "month": 8,
           "Affected": 2701604
       },
       {
           "Country": "India",
-          "month": "Sep 09, 2020",
+          "month": 9,
           "Affected": 4462965
       },
       {
           "Country": "India",
-          "month": "Oct 02, 2020",
+          "month": 10,
           "Affected": 6471934
       },
       {
           "Country": "India",
-          "month": "Nov 17, 2020",
+          "month": 11,
           "Affected": 8912704
       },
       {
           "Country": "India",
-          "month": "Dec 10, 2020",
+          "month": 12,
           "Affected": 9796992
       },
       {
           "Country": "India",
-          "month": "Jan 02, 2021",
+          "month": 1,
           "Affected": 10324631
       },
       {
           "Country": "India",
-          "month": "Feb 17, 2021",
+          "month": 2,
           "Affected": 10949546
       },
       {
           "Country": "India",
-          "month": "Mar 12, 2021",
+          "month": 3,
           "Affected": 11333491
       },
       {
           "Country": "India",
-          "month": "Apr 04, 2021",
+          "month": 4,
           "Affected": 12587920
       },
       {
           "Country": "India",
-          "month": "May 12, 2021",
+          "month": 5,
           "Affected": 23702832
       },
       {
           "Country": "India",
-          "month": "Jun 12, 2021",
+          "month": 6,
           "Affected": 29439038
       },
       {
           "Country": "India",
-          "month": "Jul 12, 2021",
+          "month": 7,
           "Affected": 30904734
       },
       {
           "Country": "India",
-          "month": "Aug 20, 2021",
+          "month": 8,
           "Affected": 32392506
       }
   ]

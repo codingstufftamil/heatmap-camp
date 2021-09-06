@@ -18,11 +18,20 @@ let svg = d3.select('svg')
 
 let generateScales = () => {
     
+    let minYear = d3.min(values, (item) => {
+        return item['month']
+    })
+    
+    let maxYear = d3.max(values, (item) => {
+        return item['month']
+    })
     xScale = d3.scaleLinear()
+                .domain([minYear, maxYear + 1])
                 .range([padding, width - padding])
 
 
-    yScale = d3.scaleTime()
+                yScale = d3.scaleTime()
+                .domain([new Date(0000), new Date(0,12,0,0,0,0,0)])
                 .range([padding, height - padding])
 
 }
@@ -49,18 +58,26 @@ let drawCells = () => {
         .append('rect')
         .attr('class','cell')
         .attr('fill', (item) => {
-            let variance = item['3/25/21']
+            let variance = item['Affected']
             if(variance <= 0){
                 return 'SteelBlue'
-            }else if(variance <= 5){
+            }else if(variance <= 10000){
                 return 'LightSteelBlue'
-            }else if(variance <= 10){
+            }else if(variance <= 100000){
                 return 'Orange'
             }else{
                 return 'Crimson'
             }
         })
-
+        .attr('data-year', (item) => {
+            return['Country']
+        })
+        .attr('data-month', (item) => {
+            return['month']
+        })
+        .attr('data-temp', (item) => {
+            return['Affected']
+        })
 }
 
 let generateAxes = () => {
